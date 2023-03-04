@@ -3,6 +3,11 @@ num=gets.chomp.to_i
 count=0
 if (num==0)
 	puts "0 not prime"
+
+elsif 
+   (num==2)
+   puts "2 is prime"
+	
 else
 	
 	i=2
@@ -15,7 +20,7 @@ else
 	
 end
 	if count!=1
-		puts "#{num} is not a prime number"
+		puts "#{num} is  a prime number"
 	else
-		puts "#{num} is a prime number"
+		puts "#{num} is not a prime number"
 	end
