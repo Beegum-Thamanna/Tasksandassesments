@@ -45,4 +45,5 @@ puts "#{arr1}"
 arr2=arr1.pop
 puts "Dance stage had the highest attendence with #{arr2} people"
 
-#puts attendance_data.max_by { |name, sales| sales}
+
+#done

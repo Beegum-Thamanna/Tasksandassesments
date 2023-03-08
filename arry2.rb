@@ -1,3 +1,8 @@
+# 2. Given an array of integers, write a method to return a new array with all the odd numbers removed. 
+
+
+
+
 
 puts "enter no of array elements"
 size = gets.chomp.to_i

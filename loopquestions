@@ -1,0 +1,16 @@
+You are creating a program that calculates a student's letter grade based on their numerical grade. If a student's numerical grade is between 90 and 100, they receive an A. If their grade is between 80 and 89, they receive a B. If their grade is between 70 and 79, they receive a C. If their grade is between 60 and 69, they receive a D. If their grade is below 60, they receive an F. Write a Ruby program that takes a student's numerical grade as input and outputs their letter grade. 
+
+You are creating a program that determines if a number is positive, negative, or zero. Write a Ruby program that takes a number as input and outputs whether it is positive, negative, or zero. 
+
+You are creating a program that determines if a person is eligible to vote in a particular election. In order to vote, a person must be at least 18 years old and a citizen of the country in which the election is taking place. Write a Ruby program that takes a person's age and citizenship status as input and outputs whether they are eligible to vote 
+
+You are creating a program that calculates the discount for a customer's purchase. If a customer spends over $100, they receive a 10% discount. If they spend over $50 but less than or equal to $100, they receive a 5% discount. If they spend less than or equal to $50, they do not receive a discount. Write a Ruby program that takes the customer's purchase amount as input and outputs their discount amount. 
+
+You are creating a program that calculates the total cost of a customer's order. The cost of an item is $10. If a customer orders 10 or more items, they receive a 10% discount on their entire order. Write a Ruby program that takes the number of items the customer is ordering as input and outputs their total cost. 
+
+You are creating a program that checks if a given year is a leap year. A year is a leap year if it is divisible by 4, except for years that are divisible by 100 but not by 400. Write a Ruby program that takes a year as input and outputs whether it is a leap year or not. 
+
+You are creating a program that checks if a given word is a palindrome. A palindrome is a word that is spelled the same way forwards and backwards. For example, "racecar" is a palindrome. Write a Ruby program that takes a word as input, checks if it is a palindrome, and outputs the result. 
+
+You are creating a program that calculates the factorial of a given number. The factorial of a number is the product of all positive integers up to and including that number. For example, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120. Write a Ruby program that takes a number as input, calculates its factorial, and outputs the result. 
+

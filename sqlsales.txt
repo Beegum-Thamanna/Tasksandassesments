@@ -1,0 +1,22 @@
+
+
+CREATE TABLE salesman (
+salesman_id int,
+name varchar(255),
+city varchar(255),
+commission float
+);
+select * from salesman;
+INSERT into salesman(
+Values(5001,'James Hoog','New York',0.15));
+INSERT into salesman(
+Values(5002,'Nail Knite','Paris',0.13));
+INSERT into salesman(
+Values(5005,'Pit Alex','London',0.11));
+INSERT into salesman(
+Values(5006,'Mc Lyon','Paris',0.14));
+INSERT into salesman(salesman_id,name,commission)
+Values(5003,'Lauson Hen',0.12);
+INSERT into salesman(
+Values(5007,'Paul Adam','Rome',0.13));
+select * from salesman;

@@ -15,9 +15,11 @@ class Bank
   end
   def deposit(amount)
     @balance+=amount
+    display_Balance
   end
   def withdraw(amount)
     @balance-=amount
+    account_Info
   end
   private
   def display_Balance
@@ -32,3 +34,4 @@ end
 bank=Bank.new(6000.0,"SBI02123333")
 bank.deposit(4500.0)
 bank.withdraw(1000.0)
+bank.account_Info

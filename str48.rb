@@ -1,3 +1,7 @@
+# 5.  Given an array of strings, write a method to return a new array containing only the strings with a length between 4 and 8 (inclusive). 
+
+
+
 puts "enter the no of strings"
 size=gets.chomp.to_i
 i=0

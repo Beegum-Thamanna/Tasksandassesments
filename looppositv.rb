@@ -3,9 +3,9 @@
 
 puts "enter a numeric "
 temp=gets.chomp.to_i
-if temp<0
+if temp.negative?
 	puts "negative number"
-elsif temp >0
+elsif temp.positive?
 	puts "positive number"
 else
 	puts "zero"

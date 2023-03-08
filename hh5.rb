@@ -31,7 +31,7 @@ username=gets.chomp
 puts "enter password"
 password=gets.chomp
 flag=false
-users.each do|item|
+users.each do |item|
   if item["username"]==username&& item['password']==password
     flag=true;
   end

@@ -1,3 +1,17 @@
+
+# 6. A teacher wants to calculate the average grade for a class of students. The grades are stored in an array of integers. However, the teacher wants to exclude the lowest grade and the highest grade from the calculation, as they may not be representative of the overall performance. 
+
+# grades = [88, 92, 78, 85, 90, 82, 75, 95] 
+
+
+
+
+
+
+
+
+
+
 puts "enter no of grades in array"
 size=gets.chomp.to_i
 arr=[]

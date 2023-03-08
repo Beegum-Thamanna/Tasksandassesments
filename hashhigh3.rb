@@ -6,3 +6,4 @@ data.each_value do |value|
 
 end
 puts "sum #{sum}" 
+

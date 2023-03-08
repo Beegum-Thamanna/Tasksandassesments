@@ -9,17 +9,11 @@ puts "enter the year"
 y=gets.chomp.to_i
 
 
-if y%400==0
-
-elsif y%4==0 && if y% 100 != 0
-     		puts "leap year"
-
-      
-else 
-	puts "not leap year"
-
-
-     end
+    
+if y%4==0 && y% 100 != 0
+     puts "leap year"
+else
+    puts "not leap year"
 end
  
 

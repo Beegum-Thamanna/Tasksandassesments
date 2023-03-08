@@ -1,3 +1,4 @@
+# 3. Given an array of strings, write a method to return a new array containing only the strings that contain the letter 'a'. 
 
 puts "enter no of strings"
 size = gets.chomp.to_i

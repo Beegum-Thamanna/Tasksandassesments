@@ -1,0 +1,22 @@
+  A company has two types of employees: regular employees and managers.
+  All employees have a name and a salary, but managers also have a bonus percentage that is added to their salary.
+  Write a program that creates two classes, Employee and Manager, where Manager inherits from Employee. The Employee class should have methods to get and set the name and salary, and the Manager class should have an additional method to get and set the bonus percentage.
+
+
+2.Problem: Alice is a programmer who is working on a project that involves creating a new class called Vehicle. The Vehicle class has several public methods, such as start_engine and stop_engine. Alice's colleague, Bob, is working on a subclass of Vehicle called Car. Car inherits all of the public methods from Vehicle, but Bob needs to add some new functionality to the start_engine method. How can Bob access the start_engine method in the Vehicle class so he can use it in his Car subclass?
+
+
+
+3.     Problem: A bookstore wants to keep track of their inventory. Each book has a title, author, and price. Create a Book class that can store this information, as well as a Bookstore class that can add books to its inventory, display the entire inventory, and calculate the total value of the inventory.
+
+
+
+4.Once upon a time, there was a programmer named Alice who was working on a new project in Ruby. She wanted to create a class to represent a bank account, with methods to deposit and withdraw money. She also wanted to initialize each account with a starting balance.
+
+
+5.Once upon a time, there was a software company that specialized in developing complex applications for the healthcare industry. The company had a class called Patientthat stored information about patients in a hospital, such as their name, age, and medical history. The class had private, protected, and public methods to ensure that the data was secure and could only be accessed in appropriate ways.The company later decided to develop another application for the healthcare industry that also needed to store patient information, but with additional functionality. They created a new class called EmergencyPatientthat inherited from the Patientclass. Using EmergencyPatient class display all patient details
+
+
+6.  Problem:Suppose you are designing a class called "BankAccount" in Ruby that has the following attributes and behaviors:Attributes:•balance (float)•account_number (string)Behaviors:•deposit(amount) -adds the amount to the balance•withdraw(amount) -subtracts the amount from the balance•display_balance -prints the current balance•account_info -prints the account number and current balanceYou want to make sure that the balance and account number are only accessible within the class, and that the deposit and withdraw methods can only be called by objects of the class.
+
+
