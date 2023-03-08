@@ -69,7 +69,7 @@ order by Firstname;
 
 2. Get employee name, project name order by firstname from "EmployeeDetail" and "ProjectDetail" for all employee even they have not assigned project.
 
-
+---------------error---------------------------
 select Employee_Details.Firstname,Project_Details.ProjectName 
 from Employee_Details
 left join Project_Details on Project_Details.EmployeeDetailID=Employee_Details.EmployeeID
@@ -101,10 +101,4 @@ where Firstname is null ;
 
 
 
-6. Write down the query to fetch EmployeeName & Project who has assign more than one project.	
-
-
-select Employee_Details.Firstname,Project_Details.ProjectName 
-from Employee_Details
-inner join Project_Details on Project_Details.EmployeeDetailID=Employee_Details.EmployeeID
-where EmployeeID in(select EmployeeDetailID from Project_Details group by EmployeeDetailID having count(EmployeeDetailID)>1);
+6. Write down the query to fetch EmployeeName & Project who has assign more than one project.
