@@ -6,8 +6,9 @@
 # 15.5 Return all elements having vowels
 # 15.6 Compute the sum of all integer elements in the array and push the sum to the array
 # 15.7 Fetch the last 3 elements from the array
-# 1Check whether first and last element are the same
-# 1a Reverse the array
+# 15.8 Replace all vowels in the array with '$' symbol
+# 15.9 Check whether first and last element are the same
+# 15.10 Reverse the array
 #  Delete element @ index 2
 # Given 2 arrays a = [1, 2, 3] and b = [2, 3, 4]. 
 
@@ -85,36 +86,12 @@ else
     puts ("first and last elemets are not same")
 end
 
-
-# x=0
-# k=[]
-# t=a.length
-# while x< t do
-#   valu=a.pop
-#   k.push(valu)
-#   x=x+1
-# end
-# puts k
-
-
-# j=[]
-# c=0
-# d=a.length
-# if c<d
-# j=0
-# cou=0
-# d=a.length
-# while cou<d
-
-#      h=a[-1]
-#      j.push(h)
-#      cou=cou+1
-# end
-# puts j
-
-
-#delte at index 2
-
-a.delete(2)
-
-puts a
+ 
+x=0
+k=[]
+t=a.length
+while x< t do
+  valu=a.pop
+  k.push(valu)
+end
+puts k
