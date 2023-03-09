@@ -14,3 +14,4 @@ You are creating a program that checks if a given word is a palindrome. A palind
 
 You are creating a program that calculates the factorial of a given number. The factorial of a number is the product of all positive integers up to and including that number. For example, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120. Write a Ruby program that takes a number as input, calculates its factorial, and outputs the result. 
 
+9. A restaurant has a list of menu items and their prices. The restaurant owner wants to print the menu to the console, along with the price of each item, and then calculate the total cost of a customer's order. Write a Ruby program to solve this problem. 

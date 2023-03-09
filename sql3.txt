@@ -41,7 +41,7 @@ INSERT INTO Project_Details(
 INSERT INTO Project_Details(
 	Values(3,1,'Survey Management'));
 INSERT INTO Project_Details(
-	Values(4,2,'HR Management'));
+	Values(4,2,'HR Management'));                              
 INSERT INTO Project_Details(
 	Values(5,3,'Task Track'));
 INSERT INTO Project_Details(
@@ -57,9 +57,7 @@ Select * from Project_Details;
 
 
 
-
 1. Get employee name, project name order by firstname from "EmployeeDetail" and "ProjectDetail" for those employee which have assigned project already.
-
 
 select Employee_Details.Firstname,Project_Details.ProjectName 
 from Employee_Details
@@ -69,13 +67,10 @@ order by Firstname;
 
 2. Get employee name, project name order by firstname from "EmployeeDetail" and "ProjectDetail" for all employee even they have not assigned project.
 
----------------error---------------------------
 select Employee_Details.Firstname,Project_Details.ProjectName 
 from Employee_Details
-left join Project_Details on Project_Details.EmployeeDetailID=Employee_Details.EmployeeID
-order by Firstname;
-
-
+left join Project_Details on Employee_Details.EmployeeID=Project_Details.EmployeeDetailID
+order by Employee_Details.Firstname;
 
 3. Get all project name even they have not matching any employeeid, in left table, order by firstname from "EmployeeDetail" and "ProjectDetail".
 
@@ -83,7 +78,6 @@ select Project_Details.ProjectName
 from Employee_Details
 right join Project_Details on Project_Details.EmployeeDetailID=Employee_Details.EmployeeID
 order by Firstname;
-
 
 4. Get complete record(employeename, project name) from both tables([EmployeeDetail],[ProjectDetail]), if no match found in any table then show NULL.
 
@@ -94,11 +88,9 @@ full outer join Project_Details on Project_Details.EmployeeDetailID=Employee_Det
 
 5. Write a query to find out the project name which is not assigned to any employee( tables :- [EmployeeDetail],[ProjectDetail]).
 
-select Project_Details.ProjectName 
+select Project_Details. *
 from Employee_Details
-right join Project_Details on Project_Details.EmployeeDetailID=Employee_Details.EmployeeID
-where Firstname is null ;
-
-
+right join Project_Details on Project_Details.EmployeeDetailID=Project_Details.EmployeeDetailID
+where Employee_Details.Firstname is null ;
 
 6. Write down the query to fetch EmployeeName & Project who has assign more than one project.

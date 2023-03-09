@@ -15,8 +15,7 @@
 # rev==t
 
 
-puts"Checking palindrome"
-puts"ENter a string"
+puts" a string"
 str1=gets.chomp
 str2=str1.reverse
 # if str1==str2
@@ -25,3 +24,6 @@ str2=str1.reverse
 # 	puts"#{str1} is not a palindrome"
 # end
 str1==str2 ? (puts"#{str1} is palindrome"):(puts"#{str2} is not palindrome")
+
+
+#done

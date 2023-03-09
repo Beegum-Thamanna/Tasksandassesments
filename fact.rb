@@ -16,3 +16,4 @@ else
 	end
 end
 		puts "factorial of #{num} is #{fact}"
+#DONE
