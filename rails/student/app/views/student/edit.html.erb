@@ -1,0 +1,40 @@
+<h1> edit student </h1>
+<%= form_with model: @Studentsinclass, url: student_path, method: :patch, local: true do |form| %>
+<div align="center">
+	<td> 
+        <% if @student.file.present? %>
+            <%= image_tag(@student.file.url, :height =>"150", :width => "150", :crop => :fill) %>
+
+          <% else %>
+            No image available
+          <% end %>
+        </td>
+    <br>
+    <br>
+	<%= form.label :name %>
+	<%= form.text_field :name, value: @student.name %>
+	<br>
+	<br>
+	<%= form.label :age %>
+	<%= form.text_field :age, value: @student.age %>
+
+
+
+
+	
+	<br>
+	<br>
+	<%= form.label :class %>
+	<%= form.text_field :student_class, value: @student.student_class  %>
+	<br>
+	<br>
+	<%= form.label :email%>
+	<%= form.email_field :email, value: @student.email %>
+	<br>
+	<br>
+	<%= form.label :country %>:</b>
+    <%= form.select :country, ['India', 'Australia', 'United Kingdom','United States'],selected: (@student.country) %>
+
+	<%= form.submit 'submit' %>
+	<% end %>
+</div>

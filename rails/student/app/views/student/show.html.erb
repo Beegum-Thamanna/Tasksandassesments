@@ -1,0 +1,24 @@
+<h1>Student Details</h1>
+
+
+
+<div align="center">
+	     <% if @student.file.present? %>
+            <%= image_tag(@student.file.url, :height =>"150", :width => "150", :crop => :fill) %>
+
+          <% else %>
+            No image available
+          <% end %>
+        </td>
+		<b>name: </b> <%= @student.name %> <br><br>
+		<b>age: </b> <%= @student.age %> <br><br>
+        <b>student_class: </b> <%= @student.student_class %> <br><br>
+        <b>email: </b> <%= @student.email%> <br><br>
+        <b>country: </b> <%= @student.country%> <br><br>
+
+
+
+</div>
+
+
+<%= link_to 'Back',student_index_path %>

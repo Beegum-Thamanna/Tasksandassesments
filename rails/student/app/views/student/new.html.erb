@@ -1,0 +1,31 @@
+<h1> New Student </h1>
+<%= form_with model: @Studentsinclass, url: student_index_path, method: :post, local: true do |form| %>
+<div align="center">
+	<%= form.label :name %>
+	<%= form.text_field :name %>
+	<br>
+	<br>
+	<%= form.label :age %>
+	<%= form.text_field :age %>
+	<br>
+	<br>
+	<%= form.label :class %>
+	<%= form.text_field :student_class %>
+	<br>
+	<br>
+	<%= form.label :email%>
+	<%= form.email_field :email%>
+	<br>
+	<br>
+	<%= form.label :country %>:
+    <%= form.select :country, ['India', 'Australia', 'United Kingdom','United States'] %>
+    <br>
+	<br>
+	<label>My Avatar</label>
+    <%= image_tag(@Student.file_url) if @student.file? %>
+    <%= form.file_field :file %>
+    <br>
+	<br>
+    <%= form.submit 'submit' %>
+	<% end %>
+</div>
